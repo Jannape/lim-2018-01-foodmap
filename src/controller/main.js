@@ -14,7 +14,7 @@
         mapa = new google.maps.Map(map,options); 
 
      console.log(mapa);
-     console.log(options);
+     console.log(options.center);
     });
 }
 
