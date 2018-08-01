@@ -12,13 +12,17 @@
     <script src="view/assets/js/jquery-3.3.1.slim.min.js"></script>
     <script src="view/assets/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="view/assets/css/spinner.css">
+    <link rel="stylesheet" href="view/assets/css/styles.css">
+ 
+
 </head>
 
 <body onload="myFunction()" style="margin:0;">
     <div id="loader"></div>
     <div style="display:none;" id="myDiv" class="animate-bottom">
-
+            <div id="map">heeeey </div>
         <div class="card text-center">
+            
             <div class="card-header">
                 <ul class="nav nav-pills card-header-pills">
                     <li class="nav-item">
@@ -33,53 +37,56 @@
                 </ul>
             </div>
             <div class="card-body">
+          
                 <form>
-                    <div class="form-group">
-                        <label for="formControlRange">Example Range input</label>
-                        <input type="range" class="form-control-range" id="formControlRange">
-                    </div>
+             
+               
                     <div class="card mb-3">
-                            <img class="card-img-top" src="view/assets/img/mapa.jpg" alt="Card image cap">
+                        
+                        <div class="card-body">
+                            <h5 class="card-title">mapita</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This
+                                content is a little bit longer.</p>
+                                
+                            <p class="card-text">
+                                <small class="text-muted">Last updated 3 mins ago</small>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card-group">
+                        <div class="card">
+                            <img class="card-img-top" src="view/assets/img/comida1.jpg" alt="Card image cap">
                             <div class="card-body">
-                              <h5 class="card-title">mapita</h5>
-                              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.
+                                    This content is a little bit longer.</p>
                             </div>
-                          </div>
-                          <div class="card-group">
-                                <div class="card">
-                                  <img class="card-img-top" src="view/assets/img/comida1.jpg" alt="Card image cap">
-                                  <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                  </div>
-                                  <div class="card-footer">
-                                    <small class="text-muted">Last updated 3 mins ago</small>
-                                  </div>
-                                </div>
-                                <div class="card">
-                                  <img class="card-img-top" src="view/assets/img/comida2.jpg" alt="Card image cap">
-                                  <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                                  </div>
-                                  <div class="card-footer">
-                                    <small class="text-muted">Last updated 3 mins ago</small>
-                                  </div>
-                                </div>
-                                <div class="card">
-                                  <img class="card-img-top" src="view/assets/img/comida2.jpg" alt="Card image cap">
-                                  <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                                  </div>
-                                  <div class="card-footer">
-                                    <small class="text-muted">Last updated 3 mins ago</small>
-                                  </div>
-                                </div>
-                              </div>
-                     
-                    
+                            <div class="card-footer">
+                                <small class="text-muted">Last updated 3 mins ago</small>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img class="card-img-top" src="view/assets/img/comida2.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                            </div>
+                            <div class="card-footer">
+                                <small class="text-muted">Last updated 3 mins ago</small>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img class="card-img-top" src="view/assets/img/comida2.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.
+                                    This card has even longer content than the first to show that equal height action.</p>
+                            </div>
+                            <div class="card-footer">
+                                <small class="text-muted">Last updated 3 mins ago</small>
+                            </div>
+                        </div>
+                    </div>
                     <div class="input-group mb-3">
                         <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="button-addon2">
                         <div class="input-group-append">
@@ -87,8 +94,8 @@
                         </div>
                     </div>
 
+                    
                 </form>
-
                 <h5 class="card-title">Special title treatment</h5>
                 <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
                 <a href="#" class="btn btn-primary">Go somewhere</a>
@@ -99,9 +106,12 @@
 <!-- 
 <script src="https://www.gstatic.com/firebasejs/5.2.0/firebase.js"></script> -->
 
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBHef2Y-ThENdEYr2y_Rv0KbI7-bB-k4LU&callback=initMap"></script>
 <script src="view/assets/js/bootstrap.js"></script>
 <script src="view/assets/js/popper.min.js"></script>
 <script src="view/assets/js/spinner.js"></script>
+<script src="controller/main.js"></script>
+<script src="model/localitation.js"></script>
 
 
 </html>
