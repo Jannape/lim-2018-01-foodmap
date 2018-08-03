@@ -7,12 +7,12 @@ Encuentra el establecimiento más cercano de comida.
 
 Vista splash con duración de 2 segundos que redirecciona a tu vista
 principal.
-![Splash](../view/img/Appresponsive.png)
+![Splash](src/view/assets/img/Appresponsive.png)
 
 En la vista principal se muestran todos los restaurantes "cerca de ti" junto
 con el input para filtrar tu elección *(Los criterios de filtrado son decisión
 tuya, puede ser por tipo de comida, costos, orden alfabético, etc.)*.
-![vista principal](../view/img/Appresponsive.png)
+![vista principal]("src/view/assets/img/Appresponsive.png")
 
 Ya que se hizo la elección del filtro deben mostrarse únicamente aquellos
 restaurantes que cumplan con la condición.
