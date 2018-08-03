@@ -12,7 +12,7 @@ principal.
 En la vista principal se muestran todos los restaurantes "cerca de ti" junto
 con el input para filtrar tu elección *(Los criterios de filtrado son decisión
 tuya, puede ser por tipo de comida, costos, orden alfabético, etc.)*.
-![vista principal]("src/view/assets/img/desktop.png")
+![vista principal](src/view/assets/img/desktop.png)
 
 Ya que se hizo la elección del filtro deben mostrarse únicamente aquellos
 restaurantes que cumplan con la condición.
