@@ -2,6 +2,7 @@ let map;
 let infowindow;
 function initMap() {
   console.log('me estan llamando soy initMap');
+  //referencias :https://codepen.io/front-end-developer/pen/vggovw
   // Creamos un mapa con las coordenadas actuales
   navigator.geolocation.getCurrentPosition(function (pos) {
     lat = pos.coords.latitude;
