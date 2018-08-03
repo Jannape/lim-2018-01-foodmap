@@ -27,6 +27,8 @@ function initMap() {
       types: ['restaurant']
     };
     // Creamos el servicio PlaceService y enviamos la petición.
+
+    
     var service = new google.maps.places.PlacesService(map);
     service.nearbySearch(request, function (results, status) {
       if (status === google.maps.places.PlacesServiceStatus.OK) {
