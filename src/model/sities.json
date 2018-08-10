@@ -1,0 +1,38 @@
+[
+    {
+      "name": "La Rica Sazón",
+      "type": "Costa",
+      "range":"Bajo",
+      "url": "../src/view/assets/img/comida2.jpg",
+      "direction":"Av.Grau 123"
+    },
+    {
+        "name": "La Rica Sazón 1",
+        "type": "Costa",
+        "range": "Básico",
+        "url": "../src/view/assets/img/comida2.jpg",
+        "direction":"Av.Grau 124"
+    },
+    {
+        "name": "La Rica Sazón 2",
+        "type": "Costa",
+        "range": "Alto",
+        "url": "../src/view/assets/img/comida2.jpg",
+        "direction":"Av.Grau 456"
+      },
+      {
+        "name": "La Rica Sazón 3",
+        "type": "Sierra",
+        "range": "Alto",
+        "url": "../src/view/assets/img/comida2.jpg",
+        "direction":"Av.Grau 678"
+      },
+
+      {
+        "name": "La Rica Sazón 4",
+        "type": "Koreana",
+        "range": "Alto",
+        "url": "../src/view/assets/img/comida2.jpg",
+        "direction":"Av.Grau 880"
+      }
+  ]
